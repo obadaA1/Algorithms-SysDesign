@@ -6,3 +6,8 @@ def fibonacci_list(n):
         fib_array.append((fib_array[i-1] + fib_array[i-2]))
     # Returning the nth Fibonacci number
     return fib_array[n]
+
+## For testing and assignment in coursera
+if __name__ == '__main__':
+    input_n = int(input())
+    print(fibonacci_list(input_n))

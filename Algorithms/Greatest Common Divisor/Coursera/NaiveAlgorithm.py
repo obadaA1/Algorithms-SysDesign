@@ -5,3 +5,8 @@ def naiveGCD(a: int, b: int):
         if a%d == 0 and b%d ==0:
             gcd = d
     return gcd
+
+
+if __name__ == "__main__":
+    a, b = map(int, input().split())
+    print(naiveGCD(a, b))

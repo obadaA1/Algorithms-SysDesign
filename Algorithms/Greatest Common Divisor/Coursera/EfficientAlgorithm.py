@@ -4,3 +4,7 @@ def EuclideGCD(a: int, b: int):
         return a
     else:
         return EuclideGCD(b, a % b)
+
+if __name__ == "__main__":
+    a, b = map(int, input().split())
+    print(EuclideGCD(a, b))
